@@ -9,30 +9,27 @@
     <style>
         #navbar ul{
             list-style-type: none;
-            margin: 0;
+            margin: 0px;
             padding: 20px;
             overflow: hidden;
             background-color: #0066cc;
         }
 
-        li{
+        #navbar li{
             float: right;
         }
 
-        li a{
+        #navbar li a{
             color: white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
-        li a:hover {
+        #navbar li a:hover {
             background-color: black;
         }
 
-        /* .sell{
-            background-color: skyblue;
-        } */
         header{
             vertical-align: middle;
             text-align: center;
@@ -43,12 +40,14 @@
 
         header a{
             text-decoration: none;
-            padding: 10px 10px;
+            padding: 11px;
+            margin-top: 50px;
             color: white;
             background-color: #0066cc;
+            border-radius: 3px;
         }
 
-        .templates{
+        #templates{
             margin: 10px;
             width: 1000px;
         }
@@ -76,6 +75,7 @@
             color: white;
             border-radius: 4px;
             background-color: #0066cc;
+            margin: 5px;
         }
 
     </style>
@@ -95,11 +95,11 @@
     <header>
         <h1 style="color: #0066cc;">Website Templates</h1>
         <p style="color: #000000;">This is a website where you will find templates that you can use in your website</p>
-        <a href="#templates">BROWSE TEMPATES</a>
+        <a href="#templates">BROWSE TEMPLATES</a>
     </header>
 
-    <h1>Featured Templates</h1>
-    <section class="templates">
+    <h1 style="margin-left: 20px;">Featured Templates</h1>
+    <section id="templates">
         <div class="card">
             <img src="samplecardimage.png" alt="sample image">
             <div class="content">
