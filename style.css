@@ -50,15 +50,11 @@ header a{
 
 .card{
     margin: 10px;
-    width: 250px;
+    width: 355px;
     float: left;
     background: #fff;
     text-align: center;
-    border: 1px solid black;
-}
-
-.card:hover{
-    box-shadow: 2px 2px black;
+    margin-top: 50px;
 }
 
 .content{
